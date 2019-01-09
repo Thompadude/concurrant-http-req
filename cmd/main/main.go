@@ -1,10 +1,11 @@
 package main
 
 import (
+	"os"
+
 	"github.com/Thompadude/concurrant-http-req/handler"
 	"github.com/labstack/echo"
 	"github.com/labstack/gommon/log"
-	"os"
 )
 
 func main() {
